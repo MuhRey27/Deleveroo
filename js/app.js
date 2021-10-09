@@ -20,7 +20,6 @@ window.addEventListener("load", () => {
     loader.style.display = "none";
   }, 3000);
 });
-
 const scrollTop = document.querySelector(".scrool-top");
 
 scrollTop.addEventListener("click", () => {
@@ -32,7 +31,7 @@ scrollTop.addEventListener("click", () => {
 });
 
 window.addEventListener("scroll", (e) => {
-  const scrollHeight = window.pageYOffset;
+  // const scrollHeight = window.pageYOffset;
 
   if (scrollHeight > 300) {
     scrollTop.classList.add("show");
