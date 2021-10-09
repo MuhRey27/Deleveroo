@@ -5,24 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deleveroo</title>
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="preloader" hidden>
+    <div class="preloader">
+      <h1><span class="yellow">By :</span> Muhammad Raihan</h1>
       <img src="images/preloader.gif" alt="Gambar Loading..." />
     </div>
 
-    <header>
+    <header id="head">
       <nav class="navbar">
         <a href="/" class="logo">Delive<span class="yellow">roo</span></a>
         <ul class="nav-menu">
           <li class="nav-item"><a href="#home">Home</a></li>
           <li class="nav-item">
-            <a href="#services">Services</a>
+            <a href="#service">Services</a>
           </li>
-          <li class="nav-item"><a href="#about">About Us</a></li>
-          <li class="nav-item"><a href="#contact">Contact Us</a></li>
+          <li class="nav-item"><a href="#aboutUs">About Us</a></li>
+          <li class="nav-item"><a href="#contactUs">Contact Us</a></li>
           <li class="nav-item"><a href="" class="btn">Make an Order</a></li>
         </ul>
       </nav>
@@ -36,19 +37,40 @@
       <section id="home" class="home">
         <div class="container">
           <div class="col-1">
-            <h1>
+            <h1
+              data-aos="fade-right"
+              data-aos-delay="3000"
+              data-aos-duration="1000"
+            >
               Order Your Product <br />
               <span>Easier & Faster.</span>
             </h1>
-            <p>
+            <p
+              data-aos="fade-right"
+              data-aos-delay="3000"
+              data-aos-duration="1200"
+            >
               Delivero is a leading global online food delivery marketplace,
               connecting consumers and restaurants through its platform in 24
               countries.
             </p>
-            <button class="home-btn">Go To Menu</button>
+            <button
+              class="home-btn"
+              data-aos="fade-right"
+              data-aos-delay="3000"
+              data-aos-duration="1300"
+            >
+              Go To Menu
+            </button>
           </div>
           <div class="col-2">
-            <img src="images/Delivery address.svg" alt="" />
+            <img
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              data-aos-delay="500"
+              src="images/Delivery address.svg"
+              alt=""
+            />
           </div>
         </div>
       </section>
@@ -56,15 +78,27 @@
       <section id="service" class="service">
         <div class="container">
           <div class="title">
-            <h1><span class="yellow">Why</span> We are the Best</h1>
-            <p>
+            <h1
+              data-aos="zoom-out-down"
+              data-aos-duration="3000"
+              data-aos-delay="1000"
+              data-aos-offset="20"
+            >
+              <span class="yellow">Why</span> We are the Best
+            </h1>
+            <p data-aos="zoom-out-down" data-aos-duration="2000">
               Lorem ipsum is placeholder text commonly used in the graphic,
               print, and publishing industries for previewing layouts and visual
               mockups. Lorem ipsum is placeholder.
             </p>
           </div>
           <div class="col-1">
-            <div class="card">
+            <div
+              class="card"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="500"
+            >
               <img src="images/delivery-man.svg" alt="" />
               <div class="desk">
                 <h3>Free Delivery</h3>
@@ -76,7 +110,12 @@
                 <a href="#" class="view-more">View More <span> ></span></a>
               </div>
             </div>
-            <div class="card">
+            <div
+              class="card"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="700"
+            >
               <img src="images/fast-food.svg" alt="" />
               <div class="desk">
                 <h3>Healthy Foods</h3>
@@ -88,7 +127,12 @@
                 <a href="#" class="view-more">View More <span> ></span></a>
               </div>
             </div>
-            <div class="card">
+            <div
+              class="card"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="900"
+            >
               <img src="images/order-food.svg" alt="" />
               <div class="desk">
                 <h3>Online Ordering</h3>
@@ -107,19 +151,40 @@
       <section id="aboutUs" class="aboutUs">
         <div class="container">
           <div class="col-1">
-            <img src="images/illus riding.svg" alt="" />
+            <img
+              data-aos="fade-up-right"
+              data-aos-duration="1200"
+              data-aos-delay="900"
+              src="images/illus riding.svg"
+              alt=""
+            />
           </div>
           <div class="col-2">
-            <h1>
+            <h1
+              data-aos="fade-down-left"
+              data-aos-duration="1200"
+              data-aos-delay="900"
+            >
               <span class="yellow">Order</span> anytime <br />
               and anywhere
             </h1>
-            <p>
+            <p
+              data-aos="fade-down-left"
+              data-aos-duration="1200"
+              data-aos-delay="1000"
+            >
               Lorem ipsum dolor sit amet,adipiscing elit. Eu, montes, metus
               porttitor consectetur pretium. Euismod imperdiet pellentesque
               cursus in netus.
             </p>
-            <button class="btn">Make an Offer</button>
+            <button
+              class="btn"
+              data-aos="fade-down-left"
+              data-aos-duration="1200"
+              data-aos-delay="1100"
+            >
+              Make an Offer
+            </button>
           </div>
         </div>
       </section>
@@ -127,20 +192,34 @@
       <section id="deliver" class="deliver">
         <div class="container">
           <div class="col-1">
-            <h1>
+            <h1
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="800"
+            >
               <span class="yellow"> Deliver</span>
               the <br />
               products with <br />
               best safety
             </h1>
-            <p>
+            <p
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="900"
+            >
               Lorem ipsum dolor sit amet,adipiscing elit. Eu, montes, metus
               porttitor consectetur pretium. Euismod imperdiet pellentesque
               cursus in netus.
             </p>
           </div>
           <div class="col-2">
-            <img src="images/illus deliver.svg" alt="" />
+            <img
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="1000"
+              src="images/illus deliver.svg"
+              alt=""
+            />
           </div>
         </div>
       </section>
@@ -148,14 +227,28 @@
       <section id="track" class="track">
         <div class="container">
           <div class="col-1">
-            <img src="images/buying online.svg" alt="" />
+            <img
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="650"
+              src="images/buying online.svg"
+              alt=""
+            />
           </div>
           <div class="col-2">
-            <h1>
+            <h1
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="700"
+            >
               <span class="yellow"> Track </span>
               your order very easily
             </h1>
-            <p>
+            <p
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="800"
+            >
               Lorem ipsum dolor sit amet,adipiscing elit. Eu, montes, metus
               porttitor consectetur pretium. Euismod imperdiet pellentesque
               cursus in netus.
@@ -167,20 +260,39 @@
       <section id="contactUs" class="contactUs">
         <div class="container">
           <div class="col-1">
-            <img src="images/splash with mobile.svg" alt="" />
+            <img
+              src="images/splash with mobile.svg"
+              alt=""
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="700"
+            />
           </div>
           <div class="col-2">
-            <h1>
+            <h1
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="800"
+            >
               <span class="white"> Place </span>
 
               your order through our app
             </h1>
-            <p>
+            <p
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="900"
+            >
               Lorem ipsum dolor sit amet,adipiscing elit. Eu, montes, metus
               porttitor consectetur pretium. Euismod imperdiet pellentesque
               cursus in netus.
             </p>
-            <div class="donwload">
+            <div
+              class="donwload"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="1000"
+            >
               <img src="images/google-play.png" alt="" />
               <img src="images/app-store.png" alt="" />
             </div>
@@ -192,14 +304,30 @@
     <footer>
       <div class="container">
         <div class="col-1">
-          <h3>Delive<span class="yellow">roo</span></h3>
-          <p>
+          <h3
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-delay="700"
+          >
+            Delive<span class="yellow">roo</span>
+          </h3>
+          <p
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-delay="800"
+          >
             Lorem ipsum dolor sit amet,adipiscing elit. Eu, montes, metus
             porttitor consectetur pretium. Euismod imperdiet
           </p>
         </div>
         <div class="col-2">
-          <div class="link">
+          <div
+            class="link"
+            class="link"
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-delay="1100"
+          >
             <h5>Contact Information</h5>
             <div class="place d-flex">
               <img src="images/location-cross.svg" alt="" />
@@ -210,21 +338,36 @@
               <p>deliveroo@gmail.com</p>
             </div>
           </div>
-          <div class="link">
+          <div
+            class="link"
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-delay="900"
+          >
             <h5>Quick Links</h5>
             <a href="">Service</a>
             <a href="">About Us</a>
             <a href="">Contact Us</a>
             <a href="">Donwload</a>
           </div>
-          <div class="link">
+          <div
+            class="link"
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-delay="1000"
+          >
             <h5>Legal</h5>
             <a href="">Privacy Policy</a>
             <a href="">Term of Use</a>
             <a href="">Conditions</a>
             <a href="">Location</a>
           </div>
-          <div class="link">
+          <div
+            class="link"
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-delay="1100"
+          >
             <h5>Connect With Us</h5>
             <div class="instagram d-flex">
               <img src="images/instagram.svg" alt="" />
@@ -235,7 +378,7 @@
               <p>Twitter</p>
             </div>
             <div class="facebook d-flex">
-              <img src="images/facebook.svg" alt="" />
+              <a href="#head"><img src="images/facebook.svg" alt="" /></a>
               <p>Facebook</p>
             </div>
           </div>
@@ -249,6 +392,13 @@
       </div>
     </footer>
 
+    <div class="scrool-top">
+      <img src="images/arrow-up-outline.svg" alt="" />
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/app.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
